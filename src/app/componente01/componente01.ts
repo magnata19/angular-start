@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './componente01.css',
 })
 export class Componente01 {
-
+  pessoa = {
+    nome: 'John Doe',
+    idade: 30,
+  };
 }
